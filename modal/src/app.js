@@ -25,3 +25,7 @@ btn.addEventListener('click', () => {
         alert(error.message);
     }
 });
+
+
+btn.addEventListener('mouseover', () => btn.style = 'background-color:pink');п
+btn.addEventListener('mouseout', () => btn.style = 'background-color:8589E4');
