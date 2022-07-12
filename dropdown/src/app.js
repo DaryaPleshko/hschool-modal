@@ -3,7 +3,7 @@ const inp = document.querySelector('.inp');
 const img = document.querySelector('.img');
 
 
-
+ 
 const upArrow = `position: absolute;
 background-image: url('C:/Users/Hanna/Desktop/hs/dropdown/img/Chevron2.jpg');
 background-repeat: no-repeat;
