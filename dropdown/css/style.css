@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgba(190, 190, 190, 0.212);
+}
+
+
+.wrapper {
+    /* position: relative; */
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.inp {
+    width: 280px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    padding: 16px 0 16px 16px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #666666;
+
+}
+
+.img-bl {
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    background-image: url(../img/Chevron.jpg);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    top: 22px;
+    right: 11px;
+}
+
+
+.result {
+    width: 293px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #666666;
+    margin: 20px auto;
+}
