@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-weight: 400;
-}
+} 
 
 body {
     background-color: rgba(190, 190, 190, 0.212);
@@ -10,7 +10,6 @@ body {
 
 
 .wrapper {
-    /* position: relative; */
     text-align: center;
     margin-top: 20px;
     display: flex;
