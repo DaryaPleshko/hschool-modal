@@ -11,7 +11,7 @@ router.post("/register", async (req, res) => {
         res.status(200).send(createdUser);
     } catch (error) {
         res.status(404).send(error.message);
-    }
+    } 
 })
 
 router.get("/names", async (req, res) => {

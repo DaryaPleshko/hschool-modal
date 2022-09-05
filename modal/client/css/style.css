@@ -76,3 +76,8 @@ ul {
 .size-of-text {
     font-weight: 600;
 }
+
+.allUsers {
+    text-align: center;
+    font-family: 'Montserrat';
+}

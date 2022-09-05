@@ -1,4 +1,5 @@
 const btn = document.querySelector('.create-account');
+const input = document.querySelector('.list-input');
 
 
 const check = (name, email, password, confirmPassword) => {
