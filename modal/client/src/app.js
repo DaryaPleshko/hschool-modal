@@ -9,7 +9,7 @@ const check = (name, email, password, confirmPassword) => {
     if (password.length <= 7) throw new Error('Пароль должен содержать минимум 8 символов !');
     if (password.split('').sort().join('') != confirmPassword.split('').sort().join('')) throw new Error('Пароли не совпадают !');
     return true;
-}
+}     
 
 
 btn.addEventListener('click', async () => {
